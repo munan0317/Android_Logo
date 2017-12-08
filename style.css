@@ -1,0 +1,83 @@
+div div {background: #A4CA39; position: relative;}
+
+.android{
+	height: 350px; width: 334px;
+	margin: 100px auto;
+
+}
+.head{
+	width: 220px; height: 100px;
+        border-radius: 110px 110px 0 0;
+}
+.l_eye, .r_eye {
+	background: white;
+	width: 20px; height: 20px;
+  top: 42px;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.l_eye {
+  left:50px;
+}
+
+.r_eye {
+  right:50px;
+}
+
+.l_ant, .r_ant {
+  background: #a4ca39;
+  width: 8px; height: 60px;
+  top: -25px;
+  border-radius: 4px;
+  position: absolute;
+}
+
+.l_ant {
+  left: 50px;
+  transform: rotate(-30deg);
+}
+
+.r_ant {
+  right: 50px;
+  transform: rotate(30deg);
+}
+
+.body {
+	width: 220px; height: 200px;
+  border-radius: 0 0 20px 20px;
+  position: relative;
+  top: 110px;
+}
+
+.l_arm, .r_arm {
+  background: #a4ca39;
+  width: 50px; height: 150px;
+
+  border-radius: 25px;
+  position: absolute;
+}
+
+.l_arm {
+  left: 230px;
+}
+
+.r_arm {
+  right: 230px;
+}
+
+.l_leg, .r_leg {
+  background: #a4ca39;
+  width: 50px; height: 70px;
+  top: 200px;
+  border-radius: 0 0 25px 25px;
+  position: absolute;
+}
+
+.l_leg {
+  left: 50px;
+}
+
+.r_leg {
+  right: 50px;
+}
